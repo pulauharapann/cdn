@@ -1,0 +1,21 @@
+<div style='font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both'/><div id='cse' style='width: 100%; padding: 0 1%; '/>
+<script src='http://www.google.com/jsapi' type='text/javascript'/>
+<script type='text/javascript'>
+var opt = &#39;<data:post.title/>&#39; + &#39;%&#39;; var customSearchOptions = {};
+google.load(&#39;search&#39;, &#39;1&#39;, { language: &#39;in&#39;, style: google.loader.themes.DEFAULT });
+google.setOnLoadCallback(function () {
+var customSearchOptions = {}; var customSearchControl = new google.search.CustomSearchControl(
+&#39;partner-pub-6945246143373351:4663070429&#39;, customSearchOptions);
+customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);var options = new google.search.DrawOptions();
+options.enableSearchResultsOnly();
+customSearchControl.draw(&#39;cse&#39;,options);
+customSearchControl.execute(opt);
+}, true);
+</script>
+<style type='text/css'>
+.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet {display:none;}
+.gcsc-branding-img-noclear {width:50px; height:15px}
+.gcsc-branding {display: none;}
+.gsc-resultsRoot.gsc-tabData.gsc-tabdActive {display: none;}
+.gsc-above-wrapper-area {display: none;}
+</style>
